@@ -1,0 +1,35 @@
+/* global selecor */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./assest/dark-laptop-black-batman-drawing-qzkrge3o5i75str2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:white;
+    background-color: rgba(0,0,0.0,0.4);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    
+}
+
+#aa{
+     
+    height: 300px; 
+    margin: 10px;
+    color:blue;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    width: 400px;
+    transition:0.8s ; 
+    transform: rotate(360deg);
+    
+
+}
+/*Hover class */
+#aa:hover{
+    background-color: gold;
+    border-radius: 80px
+}

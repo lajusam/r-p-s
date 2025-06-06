@@ -1,0 +1,30 @@
+a{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding:10px;
+    text-decoration:none;
+    transition: all 0.8s ease-in-out;
+}
+/* defalut state:lin(psuedo class link) */
+a:link{
+    color: teal;
+
+}
+/* visited state:visited(psuedo class visited) */
+a:visited{
+    color: crimson;
+    font-size: 16px;
+    
+}
+/* hover state:hover(psuedo class hover) */
+a:hover{
+    color: rgb(23, 39, 190);
+    font-size: 28px;
+    text-decoration: underline;
+    border-radius: 40px;
+}
+/* active state:active(psuedo class active) */
+a:active{
+    color: rgb(26, 246, 180);
+    font-size: 20px;
+}

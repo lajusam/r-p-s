@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#navbar{
+    height:60px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-size: 18px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+#content{
+    padding-top: 70px;
+}
+.card{
+    border-radius: 40px;
+    height: 2000px;
+    width:80%;
+    margin:20px;
+    padding:20px;
+    color: rgb(10, 10, 10);
+    border: 2px dashed blue;
+    
+
+
+   
+}
+ #home{
+        background-color: aqua;
+    }
+
+    #contact{
+        background-color: bisque;
+    }
+    #about{
+        background-color: green;
+    }
+    #services{
+        background-color: blueviolet;
+    }
